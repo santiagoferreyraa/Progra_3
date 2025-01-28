@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Main() {
+public class Actividad4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Introduce un número: ");
+        System.out.print("Introduce un número: ");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {

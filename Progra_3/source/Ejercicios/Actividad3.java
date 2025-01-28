@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Actividad3 {
     public static int[] SolicitarNumeros() {
         Scanner scanner = new Scanner(System.in);
 
