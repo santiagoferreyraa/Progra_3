@@ -1,3 +1,4 @@
+package Actividad2;
 import java.util.Scanner;
 
 public class Actividad2 {
@@ -23,6 +24,7 @@ public class Actividad2 {
         System.out.println(alturaMultiplicada);
         System.out.println(inicialConcatenada);
         System.out.println(ciudad);
-        
+
+        sc.close();
     }
 }

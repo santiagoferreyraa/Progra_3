@@ -1,3 +1,4 @@
+package Actividad3;
 import java.util.Scanner;
 
 public class Actividad3 {
@@ -13,6 +14,8 @@ public class Actividad3 {
         System.out.print("Ingrese otro número: ");
         int n2 = scanner.nextInt();
         numeros[1] = n2;
+
+        scanner.close();
 
         return numeros;
     }
@@ -52,6 +55,8 @@ public class Actividad3 {
                 System.out.println("Operación no válida.");
                 break;
         }
+
+        scanner.close();
 
         return resultado;
     }

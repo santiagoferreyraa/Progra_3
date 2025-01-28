@@ -1,3 +1,4 @@
+package Actividad4;
 import java.util.Scanner;
 
 public class Actividad4 {
@@ -10,5 +11,7 @@ public class Actividad4 {
         for (int i = 1; i <= n; i++) {
             System.out.println(i);
         }
+
+        sc.close();
     }
 }
