@@ -3,8 +3,8 @@ public class Promedio {
     public static double promedio(int[][] matriz) {
         int sumaTotal = 0;          // 1
         int cont = 0;               // 1
-        for (int i = 0; i < matriz.length; i++) {       // 1 + n + 2n -> 1 + 3n
-            for (int j = 0; j < matriz[i].length; j++) {            // 1 + n + 2n -> 1 + 3n
+        for (int i = 0; i < matriz.length; i++) {       // 1 + n + 1 + 2n -> 2 + 3n
+            for (int j = 0; j < matriz[i].length; j++) {            // 1 + n + 1 + 2n -> 2 + 3n
                 sumaTotal += matriz[i][j];      // 3n
                 cont++;         // 2n
             }
@@ -23,15 +23,15 @@ public class Promedio {
 
 
 /*    'La n que multiplica es porque el segundo for se hace n veces'
- * f(n) = 1 + 1 + 1 + 3n + n(3n + 1 + 3n + 2n) = 8n^2 + 4n + 3
+ * f(n) = 1 + 1 + 2 + 3n + n(3n + 2 + 3n + 2n) = 8n^2 + 5n + 4
  * 
  *    'Es n^2 porque es el mayor grado de la funcion'
- * 8n^2 + 4n + 3 <= c.n^2      
- * 8n^2/n^2 + 4n/n^2 + 3/n^2 <= c.n^2/n^2           <= Dividimos por n^2
- * 8 + 4/n + 3/n^2 <= c
+ * 8n^2 + 5n + 4 <= c.n^2      
+ * 8n^2/n^2 + 5n/n^2 + 4/n^2 <= c.n^2/n^2           <= Dividimos por n^2
+ * 8 + 5/n + 4/n^2 <= c
  * Buscamos un valor para n
  * n = 1
- * 8 + 4 + 3 = 15 = c
+ * 8 + 5 + 4 = 17 = c
  * 
- * f(n) = 8n^2 + 4n + 3 pertenece a O(n^2) para c = 15 y n = 1
+ * f(n) = 8n^2 + 5n + 3 pertenece a O(n^2) para c = 17 y n = 1
  */
