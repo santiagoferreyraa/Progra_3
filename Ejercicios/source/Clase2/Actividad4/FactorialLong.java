@@ -1,6 +1,6 @@
 package Ejercicios.source.Clase2.Actividad4;
 
-public class Long {
+public class FactorialLong {
     public static long factorial(int n){
         if (n < 0) return -1;
 
