@@ -11,7 +11,7 @@ public class DosClientesMaximos {
 
         Cliente mayor = null, segundoMayor = null;
         for (Cliente c : candidatos) {
-            if (c == null) continue;                                                            // TODO combinar puede ir directamente en la funcions dosClientesMaximos
+            if (c == null) continue;                                                            // TODO: combinar puede ir directamente en la funcions dosClientesMaximos
             if (mayor == null || c.scoring > mayor.scoring) {                                   // Arreglar: devuelve el maximo pero no el segundo mayor, sino el tercero     
                 segundoMayor = mayor;
                 mayor = c;
