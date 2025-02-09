@@ -1,7 +1,4 @@
 package Ejercicios.source.Clase5.Actividad3;
-
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
