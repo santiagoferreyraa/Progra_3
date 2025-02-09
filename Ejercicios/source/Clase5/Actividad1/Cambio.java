@@ -9,7 +9,7 @@ public class Cambio {
         Arrays.sort(monedas);
         List<Integer> cambio = new ArrayList<>();
 
-        for (int i = monedas.length - 1; i >= 0 && importe > 0; i--) {
+        for (int i = monedas.length - 1; i >= 0 && importe > 0; i--) {              // TODO: se podria sacar el ciclo for y reformular el while
             while (importe >= monedas[i]) {
                 cambio.add(monedas[i]);
                 importe -= monedas[i];
