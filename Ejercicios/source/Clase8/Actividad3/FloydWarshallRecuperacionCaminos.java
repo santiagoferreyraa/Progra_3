@@ -1,4 +1,4 @@
-package Ejercicios.Clase8.Actividad3;
+package Ejercicios.source.Clase8.Actividad3;
 
 import java.util.Scanner;
 

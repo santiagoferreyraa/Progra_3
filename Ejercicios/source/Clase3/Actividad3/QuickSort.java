@@ -1,4 +1,4 @@
-package Ejercicios.Clase3.Actividad3;
+package Ejercicios.source.Clase3.Actividad3;
 
 public class QuickSort {
 

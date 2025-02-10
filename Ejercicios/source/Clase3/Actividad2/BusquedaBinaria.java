@@ -1,4 +1,4 @@
-package Ejercicios.Clase3.Actividad2;
+package Ejercicios.source.Clase3.Actividad2;
 
 public class BusquedaBinaria {
     public static int busquedaBinaria(int[] arreglo, int objetivo) {

@@ -1,4 +1,4 @@
-package Ejercicios.Clase5.Actividad1;
+package Ejercicios.source.Clase5.Actividad1;
 
 import java.util.ArrayList;
 

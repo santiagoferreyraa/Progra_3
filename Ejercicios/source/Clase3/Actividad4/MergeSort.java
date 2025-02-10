@@ -1,4 +1,4 @@
-package Ejercicios.Clase3.Actividad4;
+package Ejercicios.source.Clase3.Actividad4;
 
 public class MergeSort {
 

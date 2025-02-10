@@ -1,4 +1,4 @@
-package Ejercicios.Clase2.Actividad4;
+package Ejercicios.source.Clase2.Actividad4;
 
 public class FactorialLong {
     public static long factorial(int n){

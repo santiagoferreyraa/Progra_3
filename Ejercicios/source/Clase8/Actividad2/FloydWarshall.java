@@ -1,4 +1,4 @@
-package Ejercicios.Clase8.Actividad2;
+package Ejercicios.source.Clase8.Actividad2;
 
 public class FloydWarshall {
     final static int INF = 99999;  // Usamos un valor grande para representar el infinito
