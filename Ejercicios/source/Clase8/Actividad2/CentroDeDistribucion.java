@@ -15,7 +15,7 @@ public class CentroDeDistribucion {
     }
 
 
-    void algoritmoFloydWarshall(int tiempo[][], int V, int centro) {
+    public void algoritmoFloydWarshall(int tiempo[][], int V, int centro) {
         int[][] distancia = new int[V][V];
 
         for (int i = 0; i < V; i++) {
