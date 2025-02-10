@@ -1,0 +1,75 @@
+Este informe presenta una comparación entre cuatro lenguajes de programación ampliamente utilizados: C, Python, Java y JavaScript, analizando sus características, usos comunes, ventajas y desventajas.
+1. C
+	•	Propósito: Desarrollo de sistemas y aplicaciones de bajo nivel.
+	•	Características:
+	•	Lenguaje de propósito general, compilado.
+	•	Permite control directo del hardware y la memoria.
+	•	Tipado estático y estructurado.
+	•	Usos Comunes:
+	•	Sistemas operativos.
+	•	Software embebido.
+	•	Desarrollo de controladores y herramientas de bajo nivel.
+	•	Ventajas:
+	•	Alto rendimiento: Ideal para aplicaciones que requieren alta eficiencia.
+	•	Portabilidad: Código puede ser compilado en diferentes plataformas.
+	•	Desventajas:
+	•	Complejidad: Requiere un manejo manual de memoria (punteros).
+	•	Falta de abstracción: Menos apto para proyectos modernos con interfaces gráficas o necesidades web.
+2. Python
+	•	Propósito: Lenguaje generalista diseñado para la simplicidad y productividad.
+	•	Características:
+	•	Interpretado y de alto nivel.
+	•	Tipado dinámico y sintaxis simple.
+	•	Gran cantidad de bibliotecas para diferentes aplicaciones.
+	•	Usos Comunes:
+	•	Ciencia de datos y análisis.
+	•	Desarrollo web (Django, Flask).
+	•	Inteligencia artificial y machine learning.
+	•	Automatización de tareas.
+	•	Ventajas:
+	•	Fácil de aprender: Excelente para principiantes debido a su sintaxis intuitiva.
+	•	Versatilidad: Aplicable en diversas áreas tecnológicas.
+	•	Desventajas:
+	•	Velocidad: Más lento que lenguajes compilados como C y Java.
+	•	Menos adecuado: Para desarrollo móvil o aplicaciones donde el rendimiento es crítico.
+3. Java
+	•	Propósito: Desarrollo de aplicaciones empresariales y multiplataforma.
+	•	Características:
+	•	Orientado a objetos y fuertemente tipado.
+	•	Ejecutado sobre la Máquina Virtual de Java (JVM).
+	•	“Escribe una vez, ejecuta en cualquier lugar”.
+	•	Usos Comunes:
+	•	Desarrollo de aplicaciones empresariales y backend.
+	•	Desarrollo móvil (Android).
+	•	Sistemas distribuidos y de alta escalabilidad.
+	•	Ventajas:
+	•	Robustez y seguridad: Ideal para sistemas críticos.
+	•	Portabilidad: Ejecutable en cualquier dispositivo con JVM.
+	•	Desventajas:
+	•	Verbosidad: Código más extenso que en lenguajes como Python.
+	•	Curva de aprendizaje: Requiere una comprensión sólida de conceptos de programación.
+4. JavaScript
+	•	Propósito: Desarrollo web, tanto en el lado del cliente como del servidor.
+	•	Características:
+	•	Interpretado, dinámico y basado en eventos.
+	•	Soporte para manipulación de DOM y eventos en navegadores.
+	•	Extensibilidad mediante frameworks y bibliotecas (React, Angular, Node.js).
+	•	Usos Comunes:
+	•	Desarrollo de interfaces de usuario y páginas web dinámicas.
+	•	Desarrollo backend con Node.js.
+	•	Aplicaciones móviles y de escritorio (a través de frameworks como Electron).
+	•	Ventajas:
+	•	Indispensable: Amplio uso en el desarrollo web moderno.
+	•	Ecosistema: Gran cantidad de herramientas y comunidades activas.
+	•	Desventajas:
+	•	Desempeño: Puede ser más lento que lenguajes como Java en el backend.
+	•	Flexibilidad excesiva: Puede conducir a errores difíciles de depurar.
+
+Conclusiones
+Cada uno de estos lenguajes tiene fortalezas únicas, por lo que su elección depende del proyecto:
+	•	C: Ideal para sistemas de bajo nivel y aplicaciones críticas en rendimiento.
+	•	Python: Perfecto para prototipos rápidos y áreas como ciencia de datos e IA.
+	•	Java: Excelente para sistemas empresariales, desarrollo móvil (Android) y escalabilidad.
+	•	JavaScript: Imprescindible para el desarrollo web moderno y aplicaciones interactivas.
+Si tu interés se alinea con el desarrollo backend o data engineering, Python y Java son altamente recomendados. Por otro lado, si buscas oportunidades en el desarrollo web, JavaScript es imprescindible.
+Fuentes: ChatGPT
