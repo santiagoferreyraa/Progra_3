@@ -1,0 +1,31 @@
+Fuerza Bruta
+
+Greedy selecciona los objetos en orden de mayor valor/peso:
+
+Objeto 1 (2,4) → Valor/Peso = 2.00
+Objeto 4 (7,6) → Valor/Peso = 0.86
+Objeto 2 (5,2) → Valor/Peso = 0.40
+Objeto 3 (6,1) → Valor/Peso = 0.17
+
+El greedy elige los objetos con la mejor relación valor/peso, siempre que no supere la capacidad máxima.
+
+Objeto tomado Peso total Valor total Capacidad restante
+      1           2           4               8
+      4           9          10               1
+ 2 (no entra)     -           -               -
+ 3 (no entra)     -           -               -
+
+Greedy selecciona {1,4} con valor total 10 y peso 9.
+
+Programación Dinámica
+
+Usamos una matriz dp[i][j] donde i representa los primeros i objetos y j la capacidad disponible.
+
+dp[i][w]  0  1  2  3  4  5  6  7  8  9  10
+0 objetos 0  0  0  0  0  0  0  0  0  0  0
+Objeto 1  0  0  4  4  4  4  4  4  4  4  4
+Objeto 2  0  0  4  4  4  4  4  6  6  6  6
+Objeto 3  0  0  4  4  4  4  4  6  6  6  6
+Objeto 4  0  0  4  4  4  4  4  6  6  10 10
+
+El resultado final dp[4][10] = 10, selección óptima: {1,4}.

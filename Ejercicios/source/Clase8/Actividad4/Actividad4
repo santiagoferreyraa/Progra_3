@@ -1,0 +1,6 @@
+En este proyecto se utiliza el algoritmo de Floyd-Warshall en busca de optimizar la distribución eléctrica
+del grupo Perusahaan Listrik Negara (PLN), el mismo se encarga de este recurso en la ciudad de Sulawesi, Indonesia.
+En este estudio se ha armado un grafo que contiene todos los nodos que representan los distintos postes eléctricos
+ubicados en la zona, mientras que las aristas son los cables que los conectan.
+Gracias al uso de este algoritmo se logró determinar la ruta más óptima y se llegó a la conclusión de que es necesario
+aproximadamente una longitud de cable de 9000 metros, la cual atraviesa determinados nodos (postes) distribuidos por ciudad.

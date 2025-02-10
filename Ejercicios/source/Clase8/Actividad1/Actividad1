@@ -1,0 +1,45 @@
+Tenemos 4 nodos (1, 2, 3, 4) con las siguientes aristas:
+
+1 → 2, peso 2
+2 → 4, peso 4
+1 → 4, peso 5
+4 → 3, peso 2
+
+Este es un grafo dirigido, por lo que las distancias de un nodo a sí mismo son 0, y las distancias entre nodos no conectados inicialmente serán infinitas (∞).
+La matriz inicial, donde las filas representan los nodos de origen y las columnas los nodos de destino, quedaría así:
+
+  1 2 3 4
+1 0 2 ∞ 5
+2 ∞ 0 ∞ 4
+3 ∞ ∞ 0 ∞
+4 ∞ ∞ 2 0
+
+El algoritmo consiste en ir actualizando esta matriz de distancias considerando cada nodo como un nodo intermedio en las rutas entre todos los pares de nodos. Realizamos tres iteraciones para cada nodo intermedio (k = 1, 2, 3, 4).
+
+Iteración 1 (k = 1): Considerando el nodo 1 como intermedio.
+Para cada par de nodos (i, j), se actualiza la distancia D[i][j] con el mínimo entre D[i][j] y la distancia D[i][k] + D[k][j].
+Después de la iteración 1, la matriz de distancias no cambia, ya que el nodo 1 solo tiene conexiones con 2 y 4.
+
+Iteración 2 (k = 2): Considerando el nodo 2 como intermedio.
+En esta iteración, vamos a considerar el nodo 2 como intermedio:
+Al final de la iteración 2, la matriz sigue sin cambios.
+
+Iteración 3 (k = 3): Considerando el nodo 3 como intermedio.
+Al considerar el nodo 3 como intermedio, vemos que no hay muchas actualizaciones importantes porque las conexiones de 3 son limitadas. Sin embargo, es importante verificar si algún par de nodos puede mejorarse a través de este nodo.
+
+Iteración 4 (k = 4): Considerando el nodo 4 como intermedio.
+Ahora, consideramos que el nodo 4 puede intermediar algunas distancias. Esto se actualiza en algunos pares de nodos.
+Al final de la cuarta iteración, tendremos la matriz final de distancias más cortas entre todos los nodos.
+
+La matriz final con los valores más cortos entre todos los pares de nodos es la siguiente:
+
+  1 2 3 4
+1 0 2 4 5
+2 ∞ 0 6 4
+3 ∞ ∞ 0 2
+4 ∞ ∞ 2 0
+
+Esto significa que:
+La distancia más corta de 1 a 3 es 4.
+La distancia más corta de 2 a 3 es 6.
+La distancia más corta de 1 a 4 es 5 (no cambia).
