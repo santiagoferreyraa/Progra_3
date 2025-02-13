@@ -1,4 +1,4 @@
-package Ejercicios.Clase2.Actividad3;
+package Ejercicios.source.Clase2.Actividad3;
 
 import java.util.ArrayList;
 import java.util.HashMap;

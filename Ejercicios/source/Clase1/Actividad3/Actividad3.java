@@ -1,4 +1,4 @@
-package Actividad3;
+package Ejercicios.source.Clase1.Actividad3;
 import java.util.Scanner;
 
 public class Actividad3 {

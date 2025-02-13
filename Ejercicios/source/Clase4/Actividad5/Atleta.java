@@ -1,4 +1,4 @@
-package Ejercicios.Clase4.Actividad5;
+package Ejercicios.source.Clase4.Actividad5;
 
 public class Atleta {
     private String nombre;

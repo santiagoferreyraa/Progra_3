@@ -1,4 +1,4 @@
-package Ejercicios.Clase6.Actividad3;
+package Ejercicios.source.Clase6.Actividad3;
 
 import java.util.*;
 

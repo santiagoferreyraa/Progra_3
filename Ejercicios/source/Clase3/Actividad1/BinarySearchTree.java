@@ -1,4 +1,4 @@
-package Ejercicios.Clase3.Actividad1;
+package Ejercicios.source.Clase3.Actividad1;
 
 public class BinarySearchTree {
 

@@ -1,8 +1,7 @@
-package Ejercicios.Clase4.Actividad2;
-
-import Ejercicios.Clase3.Actividad4.MergeSort;
+package Ejercicios.source.Clase4.Actividad2;
 
 import java.util.Arrays;
+import Ejercicios.source.Clase3.Actividad4.MergeSort;
 
 public class Actividad2 {
     public static int[] Juntar(int[] arreglo1, int[] arreglo2) {

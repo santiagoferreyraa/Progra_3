@@ -1,4 +1,4 @@
-package Ejercicios.Clase2.Actividad5;
+package Ejercicios.source.Clase2.Actividad5;
 
 public class Actividad5 {
     public static int SumarNumeros(int n) {

@@ -1,8 +1,7 @@
-package Ejercicios.Clase4.Actividad3;
+package Ejercicios.source.Clase4.Actividad3;
 
-import Ejercicios.Clase4.Actividad1.Cliente;
+import Ejercicios.source.Clase4.Actividad1.Cliente;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Actividad3 {

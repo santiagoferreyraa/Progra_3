@@ -1,4 +1,4 @@
-package Ejercicios.Clase2.Actividad2;
+package Ejercicios.source.Clase2.Actividad2;
 
 public class Actividad2 {
     public static void ImprimirMatriz(int[][] mat) {
